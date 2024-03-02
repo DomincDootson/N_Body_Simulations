@@ -3,7 +3,6 @@
 #include <string>
 
 void barEvolutionGaussian(); 
-//void barEvolutionKalnajs(const std::string & stem, const bool isSelfConsistent, const double littleSigma);
 
 void somaniTrappedOrbits(const double littleSigma, const std::string & outFilename);
 void sormaniBoxOrbit(int particleIndex); 

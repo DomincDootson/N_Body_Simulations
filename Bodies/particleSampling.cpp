@@ -9,11 +9,6 @@
 
 
 void cumulativeDensity(const Mestel & df){
-	/*std::ifstream inFile; inFile.open("Bodies/cumulativeDensity.out"); // WE WANT TO PUT IN A WAY TO CHECK IF THE INFOMRATION OF ALREADY SAVED DF IS THE SAME AS THE ONE READ IN 
-	if (!inFile.good()){
-		inFile.close();
-		df.cumulativeDensity("Bodies/cumulativeDensity.out");} 
-	else {inFile.close();}*/ 
 	df.cumulativeDensity("Bodies/cumulativeDensity.out");
 }
 
